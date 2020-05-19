@@ -8,9 +8,15 @@ export default class projects extends Component {
       <div>
         <CardDeck>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img
+              variant="top"
+              src={require("../components/assets/shopify.png")}
+            />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Link href="https://siberianbuckwheat.com">
+                <Card.Title>Siberian buckwheat</Card.Title>
+              </Card.Link>
+
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
