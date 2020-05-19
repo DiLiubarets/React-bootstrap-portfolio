@@ -9,7 +9,7 @@ import {
 
 export default function SocialFollow() {
   return (
-    <div class="social-container  justify-content-center">
+    <div class="social-container">
       <a
         href="https://www.linkedin.com/in/dina-liubarets-4848251a6/"
         className="linkedin social"
