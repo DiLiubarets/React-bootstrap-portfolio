@@ -1,24 +1,63 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Main from "./components/main";
+import { Navbar, Nav } from "react-bootstrap";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { NavLink } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Navbar
+        className="topnav"
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+      >
+        <Navbar.Brand as={NavLink} to="/">
+          Dina Liubarets
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link as={NavLink} to="/resume">
+              Resume
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/aboutme">
+              About
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/projects">
+              Projects
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/certificates">
+              Certificates
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">
+              Contact me
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+
+      <div className="page-content">
+        <Main />
+      </div>
+
+      <div>
+        <Navbar
+          className="justify-content-md-center color-footer"
+          sticky="bottom"
+          expand="lg"
+          variant="light"
         >
-          Learn React
-        </a>
-      </header>
+          <Navbar.Brand>
+            <h6 class="text-muted">
+              &copy;{new Date().getFullYear()} Di Liubarets
+            </h6>
+          </Navbar.Brand>
+        </Navbar>
+      </div>
     </div>
   );
 }
