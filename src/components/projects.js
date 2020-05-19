@@ -10,20 +10,22 @@ export default class projects extends Component {
           <Card>
             <Card.Img
               variant="top"
-              src={require("../components/assets/shopify.png")}
+              src={require("../components/assets/siberian buckwheat copy.png")}
             />
             <Card.Body>
               <Card.Link href="https://siberianbuckwheat.com">
-                <Card.Title>Siberian buckwheat</Card.Title>
+                <Card.Title>Siberian Buckwheat Honey</Card.Title>
               </Card.Link>
 
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src={require("../components/assets/unheatedhoney.png")} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+            <Card.Link href="https://unheatedhoney.ca/landing">
+              <Card.Title>Unheated Honey</Card.Title>
+              </Card.Link>
               <Card.Text></Card.Text>
             </Card.Body>
           </Card>
