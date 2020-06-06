@@ -10,7 +10,7 @@ export default class projects extends Component {
           <Card>
             <Card.Img
               variant="top"
-              src={require("../components/assets/siberian buckwheat copy.png")}
+              src={require("../components/assets/seberianbuckwheat.png")}
             />
             <Card.Body>
               <Card.Link href="https://siberianbuckwheat.com">
@@ -45,34 +45,9 @@ export default class projects extends Component {
           </Card>
         </CardDeck>
         <CardDeck>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px120" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px120" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px120" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
-          <Card>
-            <Card.Img variant="top" src="holder.js/100px120" />
-            <Card.Body>
-              <Card.Title>Card title</Card.Title>
-              <Card.Text></Card.Text>
-            </Card.Body>
-          </Card>
+         
+      
+       
         </CardDeck>
       </div>
     );
