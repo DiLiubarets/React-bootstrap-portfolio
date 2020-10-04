@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React-bootstrap-portfolio/static/css/main.39c88a3b.chunk.css",
+    "main.js": "/React-bootstrap-portfolio/static/js/main.1c4e91b9.chunk.js",
+    "main.js.map": "/React-bootstrap-portfolio/static/js/main.1c4e91b9.chunk.js.map",
+    "runtime-main.js": "/React-bootstrap-portfolio/static/js/runtime-main.7bad5d57.js",
+    "runtime-main.js.map": "/React-bootstrap-portfolio/static/js/runtime-main.7bad5d57.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/React-bootstrap-portfolio/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.db6ec3e7.chunk.js": "/React-bootstrap-portfolio/static/js/2.db6ec3e7.chunk.js",
+    "static/js/2.db6ec3e7.chunk.js.map": "/React-bootstrap-portfolio/static/js/2.db6ec3e7.chunk.js.map",
+    "index.html": "/React-bootstrap-portfolio/index.html",
+    "precache-manifest.c57c6acaee34b52c1761c402b4c17c3b.js": "/React-bootstrap-portfolio/precache-manifest.c57c6acaee34b52c1761c402b4c17c3b.js",
+    "service-worker.js": "/React-bootstrap-portfolio/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/React-bootstrap-portfolio/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.39c88a3b.chunk.css.map": "/React-bootstrap-portfolio/static/css/main.39c88a3b.chunk.css.map",
+    "static/js/2.db6ec3e7.chunk.js.LICENSE.txt": "/React-bootstrap-portfolio/static/js/2.db6ec3e7.chunk.js.LICENSE.txt",
+    "static/media/about.jpeg": "/React-bootstrap-portfolio/static/media/about.97e616cc.jpeg",
+    "static/media/appoint.png": "/React-bootstrap-portfolio/static/media/appoint.abc8753f.png",
+    "static/media/burger.png": "/React-bootstrap-portfolio/static/media/burger.a8ad4632.png",
+    "static/media/crypto.png": "/React-bootstrap-portfolio/static/media/crypto.e997ce52.png",
+    "static/media/App.css": "/React-bootstrap-portfolio/static/media/main1.b5e762de.jpeg",
+    "static/media/seberianbuckwheat.png": "/React-bootstrap-portfolio/static/media/seberianbuckwheat.877510dc.png",
+    "static/media/todolist.png": "/React-bootstrap-portfolio/static/media/todolist.f087294e.png",
+    "static/media/unheatedhoney.png": "/React-bootstrap-portfolio/static/media/unheatedhoney.c7d81f74.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bad5d57.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.db6ec3e7.chunk.js",
+    "static/css/main.39c88a3b.chunk.css",
+    "static/js/main.1c4e91b9.chunk.js"
+  ]
+}
