@@ -3,15 +3,15 @@
 
 /* NavBar */
 .jumbotron {
-  background-image: url(../src/components/assets/f.jpg);
-  background-repeat: no-repeat, repeat;
-  background-position: center;
+  background-image: url("./components/assets/main1.jpeg");
+  /* background-repeat: no-repeat, repeat; */
+  /* background-position: center; */
   background-size: cover;
   color: white;
   text-align: left;
-  height: 86vh;
-  margin-bottom: 0 !important;
-  border-radius: 0 !important;
+  height: 100vh;
+  /* /* margin-bottom: 0 !important; */
+  border-radius: 0 !important; 
 }
 .navbar {
   height: 7vh;
@@ -55,6 +55,7 @@
 .social-container {
   padding: 20px;
   text-align: center;
+  
 }
 .social {
   padding: 20px;

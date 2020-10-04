@@ -5,7 +5,6 @@ import AboutMe from "../components/aboutme";
 import Resume from "../components/resume";
 import Contact from "../components/contact";
 import Projects from "../components/projects";
-import Certificates from "../components/certificates";
 
 const Main = () => (
   <Switch>
@@ -14,7 +13,6 @@ const Main = () => (
     <Route path="/contact" component={Contact} />
     <Route path="/projects" component={Projects} />
     <Route path="/resume" component={Resume} />
-    <Route path="/certificates" component={Certificates} />
   </Switch>
 );
 export default Main;

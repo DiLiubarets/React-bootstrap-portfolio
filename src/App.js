@@ -30,9 +30,6 @@ function App() {
             <Nav.Link as={NavLink} to="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/certificates">
-              Certificates
-            </Nav.Link>
             <Nav.Link as={NavLink} to="/contact">
               Contact me
             </Nav.Link>
@@ -52,7 +49,7 @@ function App() {
           variant="light"
         >
           <Navbar.Brand>
-            <h6 class="text-muted">
+            <h6 className="text-muted">
               &copy;{new Date().getFullYear()} Di Liubarets
             </h6>
           </Navbar.Brand>

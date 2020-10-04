@@ -31,9 +31,9 @@ export default class contact extends Component {
                 <td>
                   <a
                     className="link email"
-                    href="mailto: di.liubarets@outlook.com"
+                    href="mailto: dina.liubarets@gmail.com"
                   >
-                    di.liubarets@outlook.com
+                    dina.liubarets@gmail.com
                   </a>
                 </td>
               </tr>

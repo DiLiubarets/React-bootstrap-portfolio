@@ -14,7 +14,7 @@ export default class aboutme extends Component {
               width={380}
               height={350}
               className="ml-6 img"
-              src={require("./assets/profilepic.jpeg")}
+              src={require("./assets/about.jpeg")}
               alt="Generic placeholder"
               fluid
               thumbnail

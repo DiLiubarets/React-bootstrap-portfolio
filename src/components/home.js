@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
-// import SocialFollow from "./SocialFollow";
+import SocialFollow from "./SocialFollow";
 
 class Home extends Component {
   render() {
@@ -11,10 +11,10 @@ class Home extends Component {
           <h1 style={{color: 'gray'}} > Hello, my name is </h1>
            <h1 class="display-4"> Dina Liubarets</h1>
           <br />
-          <h3 style={{marginTop:'20%'}}>I'm full stack web developer </h3>
-          <h4 style={{float: 'right'}}>And I code cool websites </h4>
+          <h3 style={{marginTop:'0%'}}>I'm full stack web developer </h3>
+          <h4 style={{float: 'right'}}> </h4>
 
-          {/* <SocialFollow /> */}
+          <SocialFollow  />
         
         </Jumbotron>
         <br />
@@ -25,11 +25,12 @@ class Home extends Component {
           <Row className="justify-content-md-center">
             <Col xs={12} md={4}>
               <Card>
-                <Card.Img variant="top" src="holder.js/100px120" />
+                <Card.Img variant="top" src={require("../components/assets/todolist.png")} />
                 <Card.Body>
-                  <Card.Link href="">
-                    <Card.Title></Card.Title>
+                  <Card.Link href="https://diliubarets.github.io/toDoListReact/">
+                    <Card.Title>"To do list" with React.js</Card.Title>
                   </Card.Link>
+                  <Card.Link href="https://github.com/DiLiubarets/toDoListReact">Code</Card.Link>
                 </Card.Body>
               </Card>
             </Col>
@@ -37,20 +38,20 @@ class Home extends Component {
               <Card>
                 <Card.Img
                   variant="top"
-                  src="holder.js/100px120"
-                  // src={require("../components/assets/")}
+                  src={require("../components/assets/burger.png")}
                 />
                 <Card.Body>
-                  <Card.Link>
-                    <Card.Title></Card.Title>
+                  <Card.Link href="https://warm-crag-56059.herokuapp.com">
+                    <Card.Title>Burger-App</Card.Title>
                   </Card.Link>
+                  <Card.Link href="https://github.com/DiLiubarets/myBurger-App">Code</Card.Link>
                 </Card.Body>
               </Card>
               <br />
             </Col>
           </Row>
          <Row className="justify-content-md-center">
-          <Button href="./projects.js" variant="secondary" size="md">
+          <Button href="./projects" variant="secondary" size="md">
             My projects...
           </Button>
           </Row >
