@@ -1,6 +1,9 @@
+import pdf from "./assets/resume.pdf"
 import React, { useState } from "react";
-import { Document, Page } from "react-pdf/dist/esm/entry.parcel";
-import { pdfjs } from "react-pdf";
+//import { Document, Page } from "react-pdf/dist/esm/entry.parcel";
+import { Document, Page } from 'react-pdf';
+
+import { pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Resume() {
@@ -10,14 +13,14 @@ function Resume() {
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
-
+  
   return (
-    <div>
+<div>
       <Document
-        file="./assets/resume.pdf"
+        file={pdf}
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page pageNumber={pageNumber} />
+        <Page pageNumber={pageNumber}  size="A4" />
       </Document>
     </div>
   );
